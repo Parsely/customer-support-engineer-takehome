@@ -1,21 +1,39 @@
 # Welcome to the Parse.ly Customer Support Engineer Takehome
 
-Prereq:
-install node and npm https://www.npmjs.com/get-npm
+The goal of this is to test your technical troubleshooting and savviness with the Parse.ly product, NOT netlify or gatsby.
 
-1. Deploy your repo with Netlify.
+## Prereq:
+
+
+## Steps
+1. Fork this repo.
+
+2. Get signed up with Netlify; set up with your forked repo.
+NOTE: Once you are connected, every time you push local git changes to your remote github repo, Netlify will build and deploy those changes automatically.
+
+OR
+
+2. Deploy your repo with Netlify.
 
 💫[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Parsely/customer-support-engineer-takehome)
-
-Note: Using git and pushing to the repo will cause Netlify to build and deploy your website.
-
-2. Run the site locally. Run `npm install` and `gatsby develop`
-3. Add Parse.ly Analytics Gatsby Plugin https://www.gatsbyjs.org/plugins/
-4. Start tracking with Parse.ly Analytics by going through the self-service integration (Parse.ly/pricing starter tier)
-5. Fix JSON LD:
+3. Install node and npm https://www.npmjs.com/get-npm
+4. Run the site locally. Run `npm install` and `gatsby develop`
+Note: You may ignore any npm warnings :)
+5. Make sure your site is live. We recommend changing the Netlify provided subdomain.
+6. Start tracking with Parse.ly Analytics by going through the self-service integration (Parse.ly/pricing starter tier) by going to https://www.parse.ly/pricing/. If you need to
+return to this step at any time, go to https://dash.parsely.com/try/your.url.here.com
+7. Add Parse.ly Analytics Gatsby Plugin https://www.gatsbyjs.org/plugins/
+8. Check out your dashboard: https://dash.parsely.com/your.url.here.com
+Note: There is incomplete metadata!
+9. Read docs about tracker, metadata, and how to debug your site:
+  1. [https://www.parse.ly/help/integration/basic/](https://www.parse.ly/help/integration/basic/)
+  2. [https://www.parse.ly/help/integration/jsonld/](https://www.parse.ly/help/integration/jsonld/)
+  3. [https://www.parse.ly/help/post/4332/can-confirm-site-sending-pageviews-parse-ly-2/](https://www.parse.ly/help/post/4332/can-confirm-site-sending-pageviews-parse-ly-2/)
+10. Fix JSON LD (references: https://www.parse.ly/help/integration/jsonld/#about-the-json-ld-tag)
    a. Add sections
    b. fix other omissions for existing blog posts
-6. Add your own blog post (with correct metadata)
+   c. hint, start with `/content/blog/hello-world/index.md` , metadata can be found at the top
+11. Add your own blog post (with correct metadata)
 
 ## Below is Gatbsy's README
 
