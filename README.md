@@ -2,9 +2,6 @@
 
 The goal of this is to test your technical troubleshooting and savviness with the Parse.ly product, NOT netlify or gatsby.
 
-## Prereq:
-
-
 ## Steps
 1. Fork this repo.
 
