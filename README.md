@@ -8,7 +8,7 @@ The goal of this is to test your technical troubleshooting and savviness with th
 2. Get signed up with Netlify; set up with your forked repo.
 NOTE: Once you are connected, every time you push local git changes to your remote github repo, Netlify will build and deploy those changes automatically.
 3. Install node and npm https://www.npmjs.com/get-npm
-4. Run the site locally. Run `npm install` and `gatsby develop`
+4. Run the site locally. Run `npm install` and `npm install -g gatsby-cli` and `gatsby develop`
 Note: You may ignore any npm warnings :)
 5. Make sure your site is live. We recommend changing the Netlify provided subdomain.
 6. Start tracking with Parse.ly Analytics by going through the self-service integration (Parse.ly/pricing starter tier) by going to https://www.parse.ly/pricing/. If you need to
