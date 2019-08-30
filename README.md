@@ -2,6 +2,10 @@
 
 The goal of this is to test your technical troubleshooting and savviness with the Parse.ly product, NOT netlify or gatsby.
 
+## Deliverable
+1. A working fake-blog website (provided) with the Parse.ly tracker successfully implemented and correct metadata.
+2. A write-up of any issues you ran into, how you troubleshooted, and your experience of the Parse.ly integration process.
+
 ## Steps
 1. Fork this repo.
 
