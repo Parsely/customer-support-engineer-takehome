@@ -17,8 +17,7 @@ Note: You may ignore any npm warnings :)
 5. Make sure your site is live. We recommend changing the Netlify provided subdomain.
 6. Start tracking with Parse.ly Analytics by going through the self-service integration (Parse.ly/pricing starter tier) by going to https://www.parse.ly/pricing/. If you need to
 return to this step at any time, go to https://dash.parsely.com/try/your.url.here.com
-7. Add Parse.ly Analytics Gatsby Plugin https://www.gatsbyjs.org/plugins/ 
-Note: There is a bug in the tracker. We are aware and you do not need to address it. The Gatsby/Parse.ly tracker sends the previous pages metadata ;) So when you are testing, expect that to happen.
+7. Add Parse.ly Analytics Gatsby Plugin https://www.gatsbyjs.org/plugins/ .
 8. Check out your dashboard: https://dash.parsely.com/your.url.here.com
 Note: There is incomplete metadata!
 9. Read docs about tracker, metadata, and how to debug your site:
